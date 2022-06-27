@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ed6c4cbe-4521-4808-9ae9-dd6bc2e3f432": {
+      "ProjectGuid": "ed6c4cbe-4521-4808-9ae9-dd6bc2e3f432",
+      "DisplayName": "LogAnalyzerLibraryApiApplication",
+      "ColorIndex": 0
+    },
+    "4746f7a3-3645-42af-9803-760db1ffc552": {
+      "ProjectGuid": "4746f7a3-3645-42af-9803-760db1ffc552",
+      "DisplayName": "LogAnalyzerLibraryCore",
+      "ColorIndex": 1
+    },
+    "88f325c6-a381-47b8-b5f4-3f314471b96b": {
+      "ProjectGuid": "88f325c6-a381-47b8-b5f4-3f314471b96b",
+      "DisplayName": "LogAnalyzerLibraryModels",
+      "ColorIndex": 2
+    },
+    "2721d6ff-698b-4df8-b7eb-c069dc20662f": {
+      "ProjectGuid": "2721d6ff-698b-4df8-b7eb-c069dc20662f",
+      "DisplayName": "LogAnalyzerLibraryCommon",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

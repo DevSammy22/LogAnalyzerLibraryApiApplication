@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KwXkcnmOBBTpLSC+owOdFHHYOP8osO1vEg36Qcjg+rEFzTG/jutzoL0UDfXDI34jPNnGe5RKlNax6d+l85R/6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\LogAnalyzerLibraryApiApplication\\LogAnalyzerLibraryCore\\LogAnalyzerLibraryCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\aspose.zip\\22.5.0\\aspose.zip.22.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.drawing.common\\4.5.1\\system.drawing.common.4.5.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\bin\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.deps.json
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\bin\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.dll
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\bin\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.pdb
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\bin\Debug\netcoreapp3.1\LogAnalyzerLibraryModels.dll
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\bin\Debug\netcoreapp3.1\LogAnalyzerLibraryModels.pdb
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.AssemblyInfo.cs
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.csproj.CopyComplete
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.dll
+C:\Users\hp\source\repos\LogAnalyzerLibraryApiApplication\LogAnalyzerLibraryCore\obj\Debug\netcoreapp3.1\LogAnalyzerLibraryCore.pdb
