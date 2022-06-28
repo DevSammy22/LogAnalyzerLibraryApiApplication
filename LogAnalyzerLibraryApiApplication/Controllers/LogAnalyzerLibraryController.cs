@@ -91,7 +91,7 @@ namespace LogAnalyzerLibraryApiApplication.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("CountAllDuplicateErrors")]
         public async Task<IActionResult> GetAllDuplicatedErrorsCountAsync([FromBody]Request request)
         {
