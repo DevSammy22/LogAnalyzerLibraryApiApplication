@@ -29,7 +29,6 @@ namespace LogAnalyzerLibraryCommon.Swagger
                         Description = $"{options.Build}"
                     }
                 ));
-            //services.AddSwaggerGenNewtonsoftSupport();
 
             return services;
         }

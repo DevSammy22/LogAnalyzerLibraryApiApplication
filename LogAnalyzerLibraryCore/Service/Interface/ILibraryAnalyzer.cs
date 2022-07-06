@@ -14,7 +14,7 @@ namespace LogAnalyzerLibraryCore.Service
         Response<string> DeleteLogsFromPeriod(string directoryPath, string dateRange);
         string Format(string data);
         LogFile GetFile(string fileLocation);
-        LogFile SearchLogsInDirectories(Request request);
+        LogFile SearchLogsInDirectories(BaseRequest request);
         IEnumerable<LogFile> SearchLogsPerDirectory(SearchPerDirectory searchPerDirectory);
         IEnumerable<LogFile> SearchLogsPerSize(SearchPerSize searchPerSize);
         long TotalLogsAvailbaleAsync(string directoryPath, string dateRange);

@@ -14,8 +14,8 @@ namespace LogAnalyzerLibraryCore.Helper
             {
                 using StreamReader streams = new StreamReader(path);
                 List<string> myLog = new List<string>();
-                string temp = await streams.ReadToEndAsync();
-                while (temp != null)
+                string temp;
+                while ((temp = streams.ReadLine()) != null)
                 {
                     myLog.Add(temp);
                 }

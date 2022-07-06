@@ -21,7 +21,7 @@ namespace LogAnalyzerLibraryCore.Service
             _libraryHelper = libraryHelper;
         }
 
-        public LogFile SearchLogsInDirectories(Request request)
+        public LogFile SearchLogsInDirectories(BaseRequest request)
         {
 
             var result = request.FileName[^4..];
@@ -45,11 +45,12 @@ namespace LogAnalyzerLibraryCore.Service
                     {
                         return new LogFile
                         {
-                            File = file,
                             Name = file.Name,
                             Size = file.Length,
                             FileLocation = file.DirectoryName,
-                            Date = file.LastWriteTime
+                            Date = file.LastWriteTime,
+                            Exists = true,
+                            FilePath = file.FullName
                         };
 
                     }

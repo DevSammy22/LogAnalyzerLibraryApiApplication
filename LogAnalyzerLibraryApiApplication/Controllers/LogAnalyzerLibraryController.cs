@@ -3,6 +3,7 @@ using LogAnalyzerLibraryModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace LogAnalyzerLibraryApiApplication.Controllers
@@ -20,14 +21,11 @@ namespace LogAnalyzerLibraryApiApplication.Controllers
 
         [HttpPost]
         [Route("SearchLogsInDirectories")]
-        public IActionResult SearchLogsInDirectories([FromBody]Request request)
+        public IActionResult SearchLogsInDirectories([FromBody] BaseRequest request)
         {
+
             try
             {
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
                 var result = _libraryAnalyzer.SearchLogsInDirectories(request);
                 return Ok(result);
             }
@@ -43,7 +41,7 @@ namespace LogAnalyzerLibraryApiApplication.Controllers
 
         [HttpPost]
         [Route("CountUniqueErrors")]
-        public IActionResult GetUniqueErrorsCount([FromBody]Request request)
+        public async Task<IActionResult> GetUniqueErrorsCount([FromBody]Request request)
         {
             try
             {
@@ -51,7 +49,7 @@ namespace LogAnalyzerLibraryApiApplication.Controllers
                 {
                     return BadRequest(ModelState);
                 }
-                var result = _libraryAnalyzer.CountUniqueErrorsAsync(request);
+                var result = await _libraryAnalyzer.CountUniqueErrorsAsync(request);
                 return Ok(result);
             }
             catch (ArgumentException argex)
@@ -68,7 +66,7 @@ namespace LogAnalyzerLibraryApiApplication.Controllers
 
         [HttpPost]
         [Route("CountDuplicateErrors")]
-        public IActionResult GetDuplicateErrorsCount([FromBody]Request request)
+        public async Task<IActionResult> GetDuplicateErrorsCount([FromBody]Request request)
         {
 
             try
@@ -77,7 +75,7 @@ namespace LogAnalyzerLibraryApiApplication.Controllers
                 {
                     return BadRequest(ModelState);
                 }
-                var result = _libraryAnalyzer.CountDuplicatedErrorsAsync(request);
+                var result = await _libraryAnalyzer.CountDuplicatedErrorsAsync(request);
                 return Ok(result);
             }
             catch (ArgumentException argex)

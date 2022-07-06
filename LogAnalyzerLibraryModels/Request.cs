@@ -4,12 +4,9 @@ using System.Text;
 
 namespace LogAnalyzerLibraryModels
 {
-    public class Request
+    public class Request : BaseRequest
     {
         public string FilePath { get; set; }
 
-        public string FileName { get; set; }
-
-        public List<string> Directories { get; set; }
     }
 }
